@@ -74,8 +74,8 @@ export default function Cardsprime() {
                 <div className="card-container p-grid p-justify-center card-container">
 
                     {imgjson.map((product, index) => (
-                        <div key={index} className="col-12 md:col-6 lg:col-3">
-                            <div className="text-center p-3 border-round-sm bg-primary font-bold">
+                        <div key={index} className="col-7 md:col-6 lg:col-3">
+                            <div className="text-center p-3 border-round-lg cardiavg font-bold">
                                 <Cardprime_optimo key={index} objt={product} />
                             </div>
                         </div>

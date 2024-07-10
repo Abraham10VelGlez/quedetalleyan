@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
+import { MegaMenu } from 'primereact/megamenu';
 import { InputText } from 'primereact/inputtext';
 import { Badge } from 'primereact/badge';
 import { Avatar } from 'primereact/avatar';
@@ -19,19 +20,19 @@ export default function MenubarPrime() {
         },
         {
             label: 'Cajas',
-            icon: 'pi pi-star'
+            icon: 'pi pi-gift'
         },
         {
             label: 'Tazas',
-            icon: 'pi pi-star'
+            icon: 'pi pi-gift'
         },
         {
             label: 'Playeras',
-            icon: 'pi pi-star'
+            icon: 'pi pi-gift'
         },
         {
             label: 'Termos',
-            icon: 'pi pi-star'
+            icon: 'pi pi-gift'
         },
         /*{
             label: 'Projects',
@@ -88,7 +89,7 @@ export default function MenubarPrime() {
             label: 'Acerda de',
             icon: 'pi pi-user',
             badge: 5,
-            
+
         }
     ];
 
@@ -103,7 +104,8 @@ export default function MenubarPrime() {
 
     return (
         <div className="card">
-            <Menubar model={items} start={start} end={end} />
+            {/*<Menubar model={items}  end={end} />*/}
+            <MegaMenu model={items} orientation="horizontal" end={end} breakpoint="960px" className="p-2 surface-1 shadow-8 meniavg" style={{ borderRadius: '5rem' }} />
         </div>
     )
 }

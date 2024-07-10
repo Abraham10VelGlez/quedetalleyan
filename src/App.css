@@ -1,9 +1,42 @@
+/*https://coolors.co/ffb6f1*/
+/*
+cuadrado
+Los esquemas de colores cuadrados son como tetrádicos dispuestos en un cuadrado en lugar de un rectángulo. Los colores parecen incluso más contrastantes.
+FFB6F1 rosa
+FFEAB8 amarillo
+B8FFC6 verde
+B8CDFF azul
+*/
 
+.footeriavg{
+  background-color: #FFB6F1;
+  color: black;
 
+}
+.btniavg{
+  background-color: #B8FFC6;
+  color: black;
+
+}
+
+.cardcontenidoiavg{
+  background-color: #ffffff;
+  color: black;
+
+}
+.cardiavg{
+  background-color: #FFB6F1;
+
+}
+
+.meniavg{
+  background-color: #000000;
+
+}
 .customlogo {
   width: 195px; /* Ancho del círculo */
   height: 200px; /* Altura del círculo */
-  background-color: rgb(255, 255, 255);
+  /*background-color: rgb(255, 255, 255);*/
   border-radius: 60%;
   display: flex;
   justify-content: center;
@@ -27,7 +60,7 @@
 
   width: 100px;
   height: 100px;
-  background-color: blue;
+  /*background-color: blue;*/
   border-radius: 50%;
   /* Esto convierte el cuadrado en un círculo */
 }
@@ -35,11 +68,11 @@
 
 
 body {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10px;
   text-align: center;
-  background-color: #ffb6f1;
+  background-color: #B8FFC6;
 
 }
 

@@ -9,20 +9,20 @@ export default function Cardprime_optimo({ objt }) {
     const { title, subtitle, description, urlimg } = objt
 
     const header = (
-        <Image  src={urlimg} indicatorIcon={icon} alt="Image" preview width="250" />
+        <Image  src={urlimg} indicatorIcon={icon} alt="Image" preview width="250" height='250' />
     );
 
     const footer = (
-        <div className="flex flex-wrap justify-content-end gap-2">
-            <Button label="Añadir" icon="pi pi-check" />
-            <Button label="Info" icon="pi pi-times" severity="secondary" />
+        <div className="flex flex-wrap justify-content-center gap-2 " >
+            <Button label="Agregar al Carrito" icon="pi pi-cart-arrow-down" className='btniavg' />
+            
         </div>
     );
 
     return (
         <div className="card flex justify-content-center">
-            <Card title={title} subTitle={subtitle} footer={footer} header={header} className="md:w-25rem">
-                <p className="m-0">
+            <Card title={title} subTitle={subtitle} footer={footer} header={header} className="md:w-25rem cardcontenidoiavg" >
+                <p className="m-0 ">
                     {description}
                 </p>
             </Card>
