@@ -1,0 +1,82 @@
+
+
+.customlogo {
+  width: 195px; /* Ancho del círculo */
+  height: 200px; /* Altura del círculo */
+  background-color: rgb(255, 255, 255);
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra el área del círculo */
+}
+
+.centrador {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+}
+
+.circulo {
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  /* Esto convierte el cuadrado en un círculo */
+}
+
+
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffb6f1;
+
+}
+
+/* styles.css */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  /* Ajusta el espacio entre las tarjetas */
+}
+
+.product-card {
+  margin: 1rem;
+  /* Ajusta el margen alrededor de cada tarjeta */
+  box-sizing: border-box;
+  width: calc(25% - 2rem);
+  /* Ajusta el ancho de las tarjetas */
+}
+
+@media (max-width: 1200px) {
+  .product-card {
+    width: calc(33.33% - 2rem);
+    /* 3 tarjetas por fila en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: calc(50% - 2rem);
+    /* 2 tarjetas por fila en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 576px) {
+  .product-card {
+    width: calc(100% - 2rem);
+    /* 1 tarjeta por fila en pantallas muy pequeñas */
+  }
+}
