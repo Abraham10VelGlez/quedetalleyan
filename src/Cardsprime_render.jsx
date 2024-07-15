@@ -9,13 +9,13 @@ export default function Cardprime_optimo({ objt }) {
     const { title, subtitle, description, urlimg } = objt
 
     const header = (
-        <Image  src={urlimg} indicatorIcon={icon} alt="Image" preview width="250" height='250' />
+        <Image src={urlimg} indicatorIcon={icon} alt="Image" preview width="250" height='250' />
     );
 
     const footer = (
         <div className="flex flex-wrap justify-content-center gap-2 " >
             <Button label="Agregar al Carrito" icon="pi pi-cart-arrow-down" className='btniavg' />
-            
+
         </div>
     );
 

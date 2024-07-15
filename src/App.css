@@ -8,34 +8,39 @@ B8FFC6 verde
 B8CDFF azul
 */
 
-.footeriavg{
+.footeriavg {
   background-color: #FFB6F1;
   color: black;
 
 }
-.btniavg{
-  background-color: #B8FFC6;
+
+.btniavg {
+  background-color: #FFB6F1;
   color: black;
 
 }
 
-.cardcontenidoiavg{
+.cardcontenidoiavg {
   background-color: #ffffff;
   color: black;
 
 }
-.cardiavg{
+
+.cardiavg {
   background-color: #FFB6F1;
 
 }
 
-.meniavg{
-  background-color: #000000;
+.meniavg {
+  background-color: #FFB6F1;
 
 }
+
 .customlogo {
-  width: 195px; /* Ancho del círculo */
-  height: 200px; /* Altura del círculo */
+  width: 195px;
+  /* Ancho del círculo */
+  height: 200px;
+  /* Altura del círculo */
   /*background-color: rgb(255, 255, 255);*/
   border-radius: 60%;
   display: flex;
@@ -46,7 +51,8 @@ B8CDFF azul
 .image {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover; /* Asegura que la imagen cubra el área del círculo */
+  object-fit: cover;
+  /* Asegura que la imagen cubra el área del círculo */
 }
 
 .centrador {
@@ -65,14 +71,16 @@ B8CDFF azul
   /* Esto convierte el cuadrado en un círculo */
 }
 
-
+.bntcc {
+  background-color: #FFB6F1;
+}
 
 body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  background-color: #B8FFC6;
+  background-color: #ffffff;
 
 }
 

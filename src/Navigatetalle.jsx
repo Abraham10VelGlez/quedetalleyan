@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate, Link } from 'react-router-dom';
 import Welcome from './Welcomequedetalle';
+import Boxs from './Boxs';
+import CarruselPrime from './Caruselprime';
 export default function Navigatetalle() {
 
     return (
@@ -8,6 +10,7 @@ export default function Navigatetalle() {
         <Routes>
             <Route path="/" index element={<Welcome/>} />
             <Route path="/me" element={<About />} />
+            <Route path="/QueDetalleBox" element={<Boxs />} />
             {/* comodin para dar por defecto la pagina que no sirve */}
             <Route path="*" element={<NotFound />} />
         </Routes>
@@ -15,6 +18,9 @@ export default function Navigatetalle() {
     );
 }
 
+function Boxes(){
+    return <>asd</>
+}
 
 function Navbar() {
     // visible on every page

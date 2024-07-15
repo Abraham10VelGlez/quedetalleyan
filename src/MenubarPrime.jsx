@@ -15,12 +15,14 @@ export default function MenubarPrime() {
     );*/
     const items = [
         {
-            label: 'QueDetalle',
-            icon: 'pi pi-home'
+            label: 'Inicio',
+            icon: 'pi pi-home',
+            url: '/',           
         },
         {
             label: 'Cajas',
-            icon: 'pi pi-gift'
+            icon: 'pi pi-gift',
+            url: '/QueDetalleBox',           
         },
         {
             label: 'Tazas',
@@ -97,8 +99,8 @@ export default function MenubarPrime() {
     const start = <img alt="logo" src="./logo_20240709_172102_0002.png" height="40" className="mr-2"></img>;
     const end = (
         <div className="flex align-items-center gap-2">
-            {/*<InputText placeholder="Search" type="text" className="w-8rem sm:w-auto" />*/}
-            <Avatar image="https://primefaces.org/cdn/primereact/images/logo.png" shape="circle" />
+            {/*<InputText placeholder="Search" type="text" className="w-8rem sm:w-auto" />
+            <Avatar image="https://primefaces.org/cdn/primereact/images/logo.png" shape="circle" />*/}
         </div>
     );
 
