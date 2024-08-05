@@ -13,7 +13,7 @@ import Logo from './Logo';
 export default function App() {
   return (
     <>
-            
+
       <Navigatetalle />
       <br />
       <br />
